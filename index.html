@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial de Recorrido con Geolocalización</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- estilos de Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h1>Historial de Recorrido</h1>
+  <div id="map"></div>
+  <button id="start">Iniciar Seguimiento</button>
+  <button id="stop">Detener Seguimiento</button>
+  <button id="clear">Limpiar Historial</button>
+
+  <h2>Historial de posiciones:</h2>
+  <ul id="history"></ul>
+
+  <!-- librería Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- tu script -->
+  <script src="script.js"></script>
+</body>
+</html>
